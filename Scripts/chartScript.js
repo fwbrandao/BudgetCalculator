@@ -9,7 +9,7 @@
         var chart = new CanvasJS.Chart("chartContainer", {
             backgroundColor: "rgba(160, 32, 240, 0)",
             title: {
-                fontColor: "#000066",
+                fontColor: "#fff",
                 text: "Total Budget: £" + total,
             },
             animationEnabled: true, //disable here
@@ -19,12 +19,12 @@
             // Change type to "doughnut", "line", "splineArea", etc.
             type: chartType,
             dataPoints: [
-                    { label: "Transportation", y: parseFloat(transportation), indexLabelFontColor: "#000066" },
-                    { label: "Accomodation", y: parseFloat(accom), indexLabelFontColor: "#000066" },
-                    { label: "Meals", y: parseFloat(meals), indexLabelFontColor: "#000066" },
-                    { label: "Activities", y: parseFloat(act), indexLabelFontColor: "#000066" },
-                    { label: "Spending Money", y: parseFloat(spending), indexLabelFontColor: "#000066" },
-                    { label: "Miscellaneous", y: parseFloat(misc), indexLabelFontColor: "#000066" }
+                    { label: "Transportation", y: parseFloat(transportation), indexLabelFontColor: "#fff" },
+                    { label: "Accomodation", y: parseFloat(accom), indexLabelFontColor: "#fff" },
+                    { label: "Meals", y: parseFloat(meals), indexLabelFontColor: "#fff" },
+                    { label: "Activities", y: parseFloat(act), indexLabelFontColor: "#fff" },
+                    { label: "Spending Money", y: parseFloat(spending), indexLabelFontColor: "#fff" },
+                    { label: "Miscellaneous", y: parseFloat(misc), indexLabelFontColor: "#fff" }
             ]
         }
             ]

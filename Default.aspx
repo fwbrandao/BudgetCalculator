@@ -13,10 +13,10 @@
     <title></title>
 </head>
 <body>
-    <div class="container">
+    <div class="container heading">
         <div class="model text-center">
             <h1>Holiday Budget Calculator</h1>
-            <h3>Enter your estimated holiday expenses below and click the calculate button at the bottom to get your total budget represented by a chart.
+            <h3>Enter your estimated holiday expenses below and click the calculate button at the bottom to get your total budget shown in a chart.
                 You only need to fill in the details relevant to your own holidays, everything else can be left blank.
             </h3>
         </div>
@@ -148,7 +148,7 @@
                     <div class="row">
                         <div class="col-md-4 col-md-offset-1"></div>
                         <div class="col-md-6">
-                            <asp:Button ID="btnCalculate" runat="server" Text="Calculate" cssclass="btn-primary button" OnClick="btnCalculate_Click" />
+                            <asp:Button ID="btnCalculate" runat="server" Text="Calculate" cssclass="btn-primary" OnClick="btnCalculate_Click" />
                         </div>
                     </div>
                     <br />

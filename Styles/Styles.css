@@ -1,26 +1,31 @@
 ﻿body {
-    background-color: #E0F4FF;
+    margin-top: 10px;
+    background-color: #DCDDD8;
     font-family: 'Philosopher', sans-serif;
-    color: #000066;
+    color: #fff;
 }
 
 .content {
     /*background-color: rgba(160, 32, 240, 0.1);*/
-    background-color: #E0F4FF;
+    background-color: #354B5E;
     font-size: 18px;
+    color: #fff;
+}
+
+.heading {
+    background: #D74B4B;
+    color: #fff;
 }
 
 .txtBox{
     display:inline;
 }
 
-hr.top {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+.btn-primary {
+    background-color: #D74B4B;
 }
 
-button {
-    color: crimson;
+.btn-primary:hover {
+    background-color: #fff;
+    color: #354B5E;
 }
